@@ -1,0 +1,71 @@
+body{
+    background-color: #2e1508;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    margin-bottom: 30px;
+}
+.logo{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #634535;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-image: url(img/logo-recifut.jpg);
+    background-position: center center;
+    background-size: 105px;
+    margin-bottom: 20px;
+}
+.nome{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.h2{
+    margin-top: 10px;
+    width: 70%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+ul>a:hover{
+    background-color: #634535;
+}
+ul>a{
+    border: 2px solid #634535;
+    border-radius: 50px;
+    padding: 13px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    max-width: 700px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer>a{
+    text-decoration: none;
+}
+.icone{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    text-decoration: none;
+}
