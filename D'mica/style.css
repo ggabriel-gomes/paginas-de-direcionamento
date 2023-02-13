@@ -1,6 +1,7 @@
 :root{
-    --corDeFundo: #2e1508;
-    --corSecundaria: #634535;
+    --corDeFundo: background-color: #ff7200;
+    background-image: linear-gradient(166deg, #ff7200 34%, #ffd300 100%);
+    --corSecundaria: #794529;
 }
 body{
     background-color: var(--corDeFundo);
@@ -12,11 +13,11 @@ header{
     margin-bottom: 30px;
 }
 .logo{
-    margin: 50px auto 20px auto;
+    margin: 40px auto 20px auto;
     width: 120px;
     height: 120px;
     border-radius: 100px;
-    background: var(--corSecundaria) url(img/logo-recifut.jpg) no-repeat center center;
+    background: var(--corSecundaria) url(img/logo.jpg) no-repeat center center;
     background-size: 120px;
 }
 .name{
@@ -35,8 +36,7 @@ header{
     flex-wrap: wrap;
 }
 #container>.item-container{
-    border: 2px solid var(--corSecundaria);
-    border-radius: 50px;
+    border-radius: 8px;
     padding: 13px 13px 13px 15px;
     margin-bottom: 15px;
     width: 90%;
@@ -45,9 +45,11 @@ header{
     font-size: 1rem;
     color: white;
     font-weight: 400;
+    background-color: #723d20;
+    box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.418);
 }
 #container>.item-container:hover{
-    background-color: var(--corSecundaria);
+    background-color: #572d17;
 }
 .vendedor{
     list-style: none;
@@ -59,7 +61,7 @@ footer{
     text-decoration: none;
 }
 .icone{
-    color: white;
+    color: rgb(255, 115, 0);
     font-size: 1.5rem;
     padding-right: 20px;
     text-decoration: none;
