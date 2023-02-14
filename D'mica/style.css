@@ -3,7 +3,7 @@
 }
 body{
     background-color: #ffd300;
-    background-image: linear-gradient(180deg, #ff7200 34%, #fff200 100%);
+    background-image: linear-gradient(180deg, #ff7200 34%, #ffd300 100%);
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
@@ -63,7 +63,7 @@ footer{
 }
 .icone{
     color: rgb(255, 115, 0);
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-right: 20px;
     text-decoration: none;
 }
