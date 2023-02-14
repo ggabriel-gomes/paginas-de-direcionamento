@@ -3,7 +3,7 @@
 }
 body{
     background-color: #ffd300;
-    background-image: linear-gradient(166deg, #ff7200 34%, #ffd300 100%);
+    background-image: linear-gradient(180deg, #ff7200 34%, #fff200 100%);
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
@@ -14,7 +14,7 @@ header{
     margin-bottom: 30px;
 }
 .logo{
-    margin: 40px auto 20px auto;
+    margin: 60px auto 20px auto;
     width: 120px;
     height: 120px;
     border-radius: 100px;
@@ -63,7 +63,7 @@ footer{
 }
 .icone{
     color: rgb(255, 115, 0);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-right: 20px;
     text-decoration: none;
 }
