@@ -1,10 +1,11 @@
 :root{
-    --corDeFundo: background-color: #ff7200;
-    background-image: linear-gradient(166deg, #ff7200 34%, #ffd300 100%);
     --corSecundaria: #794529;
 }
 body{
-    background-color: var(--corDeFundo);
+    background-color: #ffd300;
+    background-image: linear-gradient(166deg, #ff7200 34%, #ffd300 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
     color: white;
     font-family: 'Inter', sans-serif;
